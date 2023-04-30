@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ModalSignupComponent } from './compo/modal-signup/modal-signup.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalSignupComponent
   ],
   imports: [
     BrowserModule,
